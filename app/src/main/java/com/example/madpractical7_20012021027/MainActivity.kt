@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         val textClock = findViewById<TextClock>(R.id.textclock)
         val textView = findViewById<TextView>(R.id.textview)
 
-        textClock.format12Hour = "hh:mm:ss a"
-        
+        textClock.format12Hour = "hh:mm:ss a MMM, dd  yyyy"
+
 
         cancelAlarmCardView.visibility = View.GONE
 
